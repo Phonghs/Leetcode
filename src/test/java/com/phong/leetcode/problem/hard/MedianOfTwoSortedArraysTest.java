@@ -1,18 +1,18 @@
 package com.phong.leetcode.problem.hard;
 
-import lombok.RequiredArgsConstructor;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@RequiredArgsConstructor
+
 @SpringBootTest
 public class MedianOfTwoSortedArraysTest {
 
     @Autowired
-    private  MedianOfTwoSortedArrays medianService;
+    private MedianOfTwoSortedArrays medianService;
+
     @Test
     public void testFindMedianSortedArraysExample1() {
         int[] nums1 = new int[]{1, 3};
